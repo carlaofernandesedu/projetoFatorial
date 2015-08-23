@@ -10,8 +10,21 @@ namespace projetofatorial
     {
         static void Main(string[] args)
         {
-            Console.Write("OLA MUNDO");
-            //Console.ReadLine();
+            var str = Console.ReadLine();
+            string retorno = String.Empty;
+            switch (str)
+            {
+                case "saudar":
+                    retorno = clsteste.Saudar();
+                    break;
+                case "despedir": 
+                    retorno = clsteste.Despedir();
+                    break;
+                default : 
+                    retorno = str;
+                    break;
+            }
+            Console.WriteLine(retorno);
         }
     }
 }
