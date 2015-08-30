@@ -8,7 +8,8 @@ namespace projetofatorial
 {
     public class clsteste
     {
-        public static string Saudar()
+        //metodo novo para saudar fatorialzero
+	public static string Saudar()
         {
             return "ola mundo";
         }
