@@ -16,7 +16,7 @@ namespace projetofatorial
 
         public static string Despedir()
         {
-            return "tchau";
+            return "adios";
         }
     }
 }
